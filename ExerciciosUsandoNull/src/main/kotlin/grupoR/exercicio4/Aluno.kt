@@ -1,18 +1,20 @@
 package grupoR.exercicio4
 
 class Aluno(){
-    private var qtdAlunos: Int = 0
-    private var nome:String=""
-    private var nota:Double?=null
+    private var qtdAlunos: Int? = null
+    private var nome: String = ""
+    private var nota: Double? = null
     private var turmaDeAlunos = arrayListOf<Aluno>()
-    lateinit var alunosComNota:List<Aluno>
-    lateinit var alunoSemNota:List<Aluno>
-
-    constructor(qtdAlunos:Int) : this() {
+    lateinit var alunosComNota: List<Aluno>
+    lateinit var alunoSemNota: List<Aluno>
+    constructor(qtdAlunos: Int?) : this() {
+        requireNotNull(qtdAlunos){"A quantidade de alunos não pode ser nula"}
+        require(qtdAlunos>0){"A quantidade não pode ser menor que 0"}
         this.qtdAlunos = qtdAlunos
     }
+
     fun inserirAlunos(){
-        for (i in 0 until qtdAlunos){
+        for (i in 0 until qtdAlunos!!){
             println("------------ALUNO ${i+1}------------")
             val aluno = Aluno()
             verificaNomeAluno()
