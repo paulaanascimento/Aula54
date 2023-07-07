@@ -1,4 +1,4 @@
-package grupoA.exercicio2
+package grupoR.exercicio2
 
 class CompanhiaAerea(val nome: String, val codigo: String) {
 

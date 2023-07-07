@@ -1,7 +1,7 @@
-package grupoA.exercicio2
+package grupoR.exercicio2
 
-import grupoA.exercicio2.CompanhiaAerea.Companion.listarCompanhiasAereas
-import grupoA.exercicio2.CompanhiaAerea.Companion.obterCompanhia
+import grupoR.exercicio2.CompanhiaAerea.Companion.listarCompanhiasAereas
+import grupoR.exercicio2.CompanhiaAerea.Companion.obterCompanhia
 
 fun main() {
     println("Seja Bem-Vinda(o)!")
