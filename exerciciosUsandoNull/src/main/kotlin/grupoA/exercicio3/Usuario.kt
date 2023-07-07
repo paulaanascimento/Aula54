@@ -1,4 +1,4 @@
-package exerciciosUsandoNull.src.main.kotlin.grupoA.exercicio3
+package grupoA.exercicio3
 
 import java.time.LocalDate
 

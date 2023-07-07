@@ -1,4 +1,0 @@
-package grupoA
-
-class Classe {
-}

@@ -1,4 +1,4 @@
-package exerciciosUsandoNull.src.main.kotlin.grupoA.exercicio4
+package grupoA.exercicio4
 
 fun main() {
     var votosMatrix = 0
