@@ -1,0 +1,4 @@
+package grupoA
+
+class Classe {
+}
