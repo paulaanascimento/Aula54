@@ -1,4 +1,4 @@
-package grupoA.`Exercicio 2`
+package grupoA.exercicio2
 
 fun main() {
 Produtos().produtos()

@@ -1,4 +1,4 @@
-package grupoA.`Exercicio 1`
+package grupoA.exercicio1
 
 fun main() {
     println("Digite o numero de funcionário")

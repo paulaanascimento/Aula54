@@ -1,4 +1,4 @@
-package grupoR.exercicio03
+package grupoR.exercicio3
 
 fun main() {
     print("Digite a quantidade de itens que deseja adicionar à lista: ")

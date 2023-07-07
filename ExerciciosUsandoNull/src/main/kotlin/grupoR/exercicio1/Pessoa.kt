@@ -1,4 +1,4 @@
-package grupoR.exercicio01
+package grupoR.exercicio1
 
 class Pessoa(var nome:String, var idade:Int?) {
     fun informacoes(){
