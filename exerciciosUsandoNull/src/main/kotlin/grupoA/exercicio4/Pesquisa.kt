@@ -21,7 +21,7 @@ fun main() {
                     println("Opção invalida, insira novamente a opção correta")
                 }
             }
-        }while (votoSaga == null)
+        }while (votoSaga == null || (votoSaga != 1 && votoSaga !=2))
     }
 
     println("Total de votos para a saga Matrix: $votosMatrix")
